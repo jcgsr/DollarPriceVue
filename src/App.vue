@@ -75,9 +75,10 @@ export default {
 
 	.container {
 		display: flex;
-		justify-content: space-around;
+		
+		/* justify-content: space-around;
 		margin: 1rem;
-		padding: 1rem;
+		padding: 1rem; */
 	}
 
 	.card {
@@ -85,5 +86,11 @@ export default {
 		align-items: center;
 		text-align: center;
 		margin: 0 auto;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.container {
+			display: grid;
+		}
 	}
 </style>
