@@ -38,7 +38,7 @@
 
 <style>
 	#btn {
-		color: brown;
+		color: aliceblue;
 	}
 
 	#value {

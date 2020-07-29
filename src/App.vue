@@ -61,11 +61,12 @@ export default {
 <style>
 	*, body, html {
 		box-sizing: border-box;
-		color: brown;
+		color: aliceblue;
 		text-align: center;
-		background: #1f4037;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 	}
 	h1 {
@@ -82,7 +83,7 @@ export default {
 	}
 
 	.card {
-		color: brown;
+		color: aliceblue;
 		align-items: center;
 		text-align: center;
 		margin: 0 auto;
