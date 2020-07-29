@@ -36,18 +36,20 @@
 
 	</v-card>
 	</div>
+	<Footer />
   </v-app>
 </template>
 
 <script>
 
 import Conversor from './components/Conversor';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-   Conversor
+   Conversor, Footer
   },
 
   data: () => ({
