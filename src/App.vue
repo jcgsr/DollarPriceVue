@@ -1,12 +1,41 @@
 <template>
   <v-app>
-	<h1 class="animate__animated animate__bounce display-2">Cotação Vue</h1>
+  <h1 class="animate__animated animate__bounce display-2">Cotação Vue</h1>
+  
+  <div class="container">
+	<v-card class="card animate__animated animate__jello">
+	<v-card-title>
+			<v-card-actions>
+				<Conversor moeda-a="USD" moeda-b="BRL" />
+	</v-card-actions>
+		</v-card-title>
+
+	</v-card>
 	<v-card class="card animate__animated animate__jello">
 		<v-card-title>
-		<Conversor moeda-a="USD" moeda-b="BRL" />
-		<Conversor moeda-a="BRL" moeda-b="USD" />
+			<v-card-actions>
+				<Conversor moeda-a="BRL" moeda-b="USD" />
+			</v-card-actions>
 		</v-card-title>
+		
 	</v-card>
+	<v-card class="card animate__animated animate__jello">
+		<v-card-title>
+			<v-card-actions>
+				<Conversor moeda-a="EUR" moeda-b="BRL" />
+	</v-card-actions>
+		</v-card-title>
+
+	</v-card>
+	<v-card class="card animate__animated animate__jello">
+		<v-card-title>
+		<v-card-actions>
+		<Conversor moeda-a="BRL" moeda-b="EUR" />
+		</v-card-actions>
+		</v-card-title>
+
+	</v-card>
+	</div>
   </v-app>
 </template>
 
@@ -42,9 +71,15 @@ export default {
 		padding: 2rem;
 	}
 
+	.container {
+		display: flex;
+		justify-content: space-around;
+		margin: 1rem;
+		padding: 1rem;
+	}
+
 	.card {
 		color: brown;
-		display: flex;
 		align-items: center;
 		text-align: center;
 		margin: 0 auto;
