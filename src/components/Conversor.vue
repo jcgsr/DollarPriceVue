@@ -2,7 +2,7 @@
 	<div class="conversor">
 		<h2>{{ moedaA }} para {{ moedaB }}</h2>
 		<v-input>
-			<v-text-field v-model="moedaA_value" :placeholder="moedaA"></v-text-field>
+			<v-text-field type="number" v-model="moedaA_value" :placeholder="moedaA"></v-text-field>
 		</v-input>
 		<v-btn id="btn" color="success" @click="converter">Converter</v-btn>
 		<h2 id="value">{{ moedaB_value }}</h2>
