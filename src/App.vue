@@ -92,7 +92,10 @@ background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, F
 
 	@media only screen and (max-width: 600px) {
 		.container {
-			display: grid;
+			display: grid;						
+		}
+		.card {
+			margin-bottom: 1rem;
 		}
 	}
 </style>
