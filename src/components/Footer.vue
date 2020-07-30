@@ -6,7 +6,7 @@
         <v-btn small color="secondary">
           <a class="white--text" href="https://vuetifyjs.com/en/">Vuetify</a>
         </v-btn> por
-        <v-btn small color="info" depressed="true">
+        <v-btn small color="info">
           <a class="white--text" href="https://jcgsr.github.io/">Jovane</a>
         </v-btn>.
       </v-col>

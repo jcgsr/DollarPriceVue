@@ -42,7 +42,7 @@ export default {
   },
   filters: {
     currency(value) {
-      return "R$ " + value.toLocaleString();
+      return "€ " + value.toLocaleString();
     },
   },
 };
