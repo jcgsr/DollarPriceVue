@@ -6,6 +6,7 @@
     </v-input>
     <v-btn id="btn" color="success" @click="converter">Converter</v-btn>
     <h2 id="value">{{ moedaB_value | currency }}</h2>
+    <h3>{{ result }}</h3>
   </div>
 </template>
 
@@ -19,7 +20,6 @@ export default {
       moedaB_value: 0,
     };
   },
-
   methods: {
     converter() {
       let de_para = this.moedaA + "_" + this.moedaB;
@@ -42,7 +42,7 @@ export default {
   },
   filters: {
     currency(value) {
-      return "€ " + value.toLocaleString();
+      return "€ " + value
     },
   },
 };
